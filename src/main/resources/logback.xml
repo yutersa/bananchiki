@@ -1,0 +1,9 @@
+<configuration>
+    <!-- Отключаем ВСЕ логи -->
+    <root level="OFF"/>
+
+    <!-- Отключаем логи Hibernate -->
+    <logger name="org.hibernate" level="OFF"/>
+    <logger name="org.hibernate.SQL" level="OFF"/>
+    <logger name="org.hibernate.type" level="OFF"/>
+</configuration>
